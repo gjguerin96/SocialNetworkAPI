@@ -15,9 +15,36 @@ const thoughtSchema = new Schema(
     username: {
         type: String,
         required: true
-    }
+    },
+    reactions: [reactionSchema]
   }
 );
+
+const reactionSchema = new Schema(
+    {
+        reactionId: {
+            //
+        },
+        reactionBody: {
+            type: String,
+            required: true,
+            max_length: 280
+        },
+        username: {
+            type: String,
+            required: true
+        },
+        createdAt: {
+            type: Date,
+            default: Date.now
+        }
+    } 
+)
+//   .virtual('reactionCount')
+  
+//   .get(function () {
+//     return friends.length;
+//   })
 
 const Thought = model('thought', thoughtSchema);
 
