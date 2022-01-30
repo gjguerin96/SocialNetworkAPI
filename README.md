@@ -7,9 +7,9 @@ This application centers on the use of mongoDB and mongoose. It has no front end
 Run npm install to install the necessary node packages, and mongoDB for the database.
 
 ## Usage
-See video walkthrough below. Use node to activate the server from the command line, and then use insomnia to access the get, post, put, and delete routes for the user and thought models. You can also add users to another user's friend list, add thoughts, and add reactions to those thoughts.
+See video walkthrough below. Use node to activate the server from the command line, and then use insomnia to access the get, post, put, and delete routes for the user and thought models. You can also add users to another user's friend list, and add reactions to thoughts.
 
-Video walkthrough: 
+Video walkthrough: https://drive.google.com/file/d/1o4zCVkU-3_ctNAKJ8qX25ZciIk2BVTXB/view?usp=sharing
 
 ## Credits
 I recieved some assistance and advice in building this application from my tutor, Vinnie Lopez.
